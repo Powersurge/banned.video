@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.infowars"
-       name="Infowars"
+<addon id="plugin.video.banned.video"
+       name="Banned.Video"
        version="2.1.5c"
        provider-name="Thomas Meadows, Spinalcracker">
   <requires>
@@ -12,8 +12,8 @@
 		<provides>video</provides>
 	</extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Videos from Infowars.com Including live daily shows</summary>
-    <description lang="en_GB">Videos from Infowars.com Including live daily shows</description>
+    <summary lang="en_US">Videos from Infowars.com Including live daily shows</summary>
+    <description lang="en_US">Videos from Infowars.com Including live daily shows</description>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -24,11 +24,11 @@
       - Added On demand menu navigation
       - Added Banned.video icon
     </news>
-    <disclaimer lang="en_GB">This Project was made without association of the creators of infowars.com</disclaimer>
+    <disclaimer lang="en_US">This Project was made without association of the creators of Banned.Video</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
     <forum>http://forum.kodi.tv/showthread.php?tid=198601</forum>
-    <website>http://www.infowars.com</website>
+    <website>http://banned.video</website>
 	  <source>https://github.com/Spinalcracker/repo-plugins/tree/jarvis/plugin.video.infowars</source>
   	<email></email>
   </extension>
