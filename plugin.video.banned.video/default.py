@@ -1,5 +1,5 @@
 #############################################################
-# Project: 			#		Infowars.com Plugin
+# Project: 			#		Banned.Video Plugin
 # ver. 2.1.5c
 # Email @ thomasmeadows@gmail.com
 #############################################################
@@ -24,12 +24,12 @@ import urllib.request
 import urllib.parse
 # import simplejson as json
 
-IW_addon_id = "plugin.video.infowars"
-IW_domain_url = "infowars.com"
+IW_addon_id = "plugin.video.banned.video"
+IW_domain_url = "banned.video"
 IW_addonPath = os.path.join("special://home", "addons", IW_addon_id)
 IW_artIcon = os.path.join(IW_addonPath, "icon.png")
 IW_artFanart = os.path.join(IW_addonPath, "fanart.jpg")
-IW_plugin = "Infowars"
+IW_plugin = "Banned.Video"
 IW_authors = "Prafit, Spinalcracker"
 IW_credits = ""
 IW_database_name = "infowars"
