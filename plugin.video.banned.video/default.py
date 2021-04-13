@@ -186,7 +186,7 @@ def Menu_MainMenu():  # The Main Menu
     )
     add_item(
         mode='PlayURL',
-        title=cFL_('The David Knight Show - (Loops After Airing)', 'orange'),
+        title=cFL_('The American Journal with Harrison Smith - (Loops After Airing)', 'orange'),
         url='https://freespeech.akamaized.net/hls/live/2016873/live3/playlist.m3u8',
         icon=DKSIcon, thumbnail=DKSIcon, fanart=DKSFanart,
         folder=False
