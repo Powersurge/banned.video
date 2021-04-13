@@ -37,7 +37,7 @@ IW_database_file = os.path.join(
     xbmc.translatePath("special://database"), 'infowars.db')
 IW_debugging = False
 AJSIcon = "https://imgur.com/YYl3GFe.png"
-DKSIcon = "https://static.infowars.com/images/DKS-logo.png"
+DKSIcon = "https://assets.infowarsmedia.com/images/15084c28-71d4-456f-b587-7b66f73c7ede-large.png"
 DKSFanart = "https://static.infowars.com/images/DKS-bg.jpg"
 WarRoomIcon = "https://static.infowars.com/images/war-room-logo-white.png"
 WarRoomFanart = "https://static.infowars.com/images/war-room-studio.jpg"
