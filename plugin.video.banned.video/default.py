@@ -180,7 +180,7 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('The Alex Jones Show - (Loops After Airing)', 'lime'),
-        url='https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8',
+        url='https://freespeech.akamaized.net/hls/live/2024573/live2/playlist.m3u8',
         icon=AJSIcon, thumbnail=AJSIcon, fanart=IW_artFanart,
         folder=False
     )
@@ -194,7 +194,7 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('War Room with Owen Shroyer - (Loops After Airing)', 'purple'),
-        url='https://freespeech.akamaized.net/hls/live/2016873/live4/playlist.m3u8',
+        url='https://freespeech.akamaized.net/hls/live/2024574/live4/playlist.m3u8',
         icon=WarRoomIcon, thumbnail=WarRoomIcon, fanart=WarRoomFanart,
         folder=False
     )
