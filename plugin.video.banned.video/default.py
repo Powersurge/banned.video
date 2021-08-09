@@ -605,3 +605,7 @@ def check_mode(mode=''):
 
 # Runs the function that checks the mode and decides what the plugin should do. This should be at or near the end of the file.
 check_mode()
+
+
+# listitem = xbmcgui.ListItem(path='https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8')
+# xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)
