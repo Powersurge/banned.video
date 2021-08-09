@@ -1,6 +1,6 @@
 #############################################################
 # Project: 			#		Banned.Video Plugin
-# ver. 2.1.5c
+# ver. 2.1.7
 # Email @ thomasmeadows@gmail.com
 #############################################################
 import xbmcplugin
