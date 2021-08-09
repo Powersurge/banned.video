@@ -19,9 +19,6 @@
       <fanart>fanart.jpg</fanart>
     </assets>
     <news>
-      Version 2.1.7
-      - Updated playlist URL's to fix no sound issue
-
       Version 2.1.6
       - Fixed broken live streams in menu
       - Cleaned up the code and removed anything that was not being used or was unnecessary
