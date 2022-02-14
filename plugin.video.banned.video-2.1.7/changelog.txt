@@ -1,3 +1,7 @@
+
+[B]Version 2.1.7[/B]
+- Fixed no sound issue in some live streams
+
 [B]Version 2.1.6[/B]
 - Fixed broken live streams in menu
 - Cleaned up the code and removed anything that was not being used or was unnecessary
