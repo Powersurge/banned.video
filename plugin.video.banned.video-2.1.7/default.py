@@ -187,7 +187,7 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('The American Journal with Harrison Smith - (Loops After Airing)', 'orange'),
-        url='https://freespeech.akamaized.net/hls/live/2024573/live2/playlist.m3u8',
+        url='https://freespeech.akamaized.net/hls/live/2016873/live3/playlist.m3u8',
         icon=DKSIcon, thumbnail=DKSIcon, fanart=DKSFanart,
         folder=False
     )
@@ -198,10 +198,11 @@ def Menu_MainMenu():  # The Main Menu
         icon=WarRoomIcon, thumbnail=WarRoomIcon, fanart=WarRoomFanart,
         folder=False
     )
+    # # IW_addon.add_directory({'mode': 'PlayURL','url':''},{'title':  cFL_('American Countdown - (Loops After Airing)','red')},is_folder=False,img=IWODIcon,fanart=IWODFanart)
     add_item(
         mode='PlayURL',
         title=cFL_('Live Shows & Special Events', 'green'),
-        url='https://freespeech.akamaized.net/hls/live/2024573/live2/playlist.m3u8',
+        url='https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8',
         icon=IWLiveSEIcon, thumbnail=IWLiveSEIcon, fanart=IWLiveSEFanart,
         folder=False
     )
