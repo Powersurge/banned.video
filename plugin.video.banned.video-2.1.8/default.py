@@ -34,7 +34,7 @@ IW_authors = "Prafit, Spinalcracker"
 IW_credits = ""
 IW_database_name = "infowars"
 IW_database_file = os.path.join(
-    xbmc.translatePath("special://database"), 'infowars.db')
+    xbmcvfs.translatePath("special://database"), 'infowars.db')
 IW_debugging = False
 AJSIcon = "https://imgur.com/YYl3GFe.png"
 DKSIcon = "https://assets.infowarsmedia.com/images/15084c28-71d4-456f-b587-7b66f73c7ede-large.png"
@@ -180,21 +180,21 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('The Alex Jones Show - (Loops After Airing)', 'lime'),
-        url='https://freespeech.akamaized.net/hls/live/2024573/live2/playlist.m3u8',
+        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/mainstream-ajshow.m3u8',
         icon=AJSIcon, thumbnail=AJSIcon, fanart=IW_artFanart,
         folder=False
     )
     add_item(
         mode='PlayURL',
         title=cFL_('The American Journal with Harrison Smith - (Loops After Airing)', 'orange'),
-        url='https://freespeech.akamaized.net/hls/live/2016873/live3/playlist.m3u8',
+        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/americanjournal.m3u8',
         icon=DKSIcon, thumbnail=DKSIcon, fanart=DKSFanart,
         folder=False
     )
     add_item(
         mode='PlayURL',
         title=cFL_('War Room with Owen Shroyer - (Loops After Airing)', 'purple'),
-        url='https://freespeech.akamaized.net/hls/live/2024574/live4/playlist.m3u8',
+        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/warroom.m3u8',
         icon=WarRoomIcon, thumbnail=WarRoomIcon, fanart=WarRoomFanart,
         folder=False
     )
@@ -202,7 +202,7 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('Live Shows & Special Events', 'green'),
-        url='https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8',
+        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/liveshows.m3u8',
         icon=IWLiveSEIcon, thumbnail=IWLiveSEIcon, fanart=IWLiveSEFanart,
         folder=False
     )

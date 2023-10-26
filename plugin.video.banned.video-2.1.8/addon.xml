@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.banned.video"
        name="Banned.Video"
-       version="2.1.7"
+       version="2.1.8"
        provider-name="Thomas Meadows, Spinalcracker">
   <requires>
 	<import addon="xbmc.python" version="3.0.0"/>
