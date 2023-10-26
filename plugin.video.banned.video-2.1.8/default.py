@@ -180,21 +180,21 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('The Alex Jones Show - (Loops After Airing)', 'lime'),
-        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/mainstream-ajshow.m3u8',
+        url='https://raw.githubusercontent.com/powersurge/plugin.video.banned.video/main/m3u/mainstream-ajshow.m3u8',
         icon=AJSIcon, thumbnail=AJSIcon, fanart=IW_artFanart,
         folder=False
     )
     add_item(
         mode='PlayURL',
         title=cFL_('The American Journal with Harrison Smith - (Loops After Airing)', 'orange'),
-        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/americanjournal.m3u8',
+        url='https://raw.githubusercontent.com/powersurge/plugin.video.banned.video/main/m3u/americanjournal.m3u8',
         icon=DKSIcon, thumbnail=DKSIcon, fanart=DKSFanart,
         folder=False
     )
     add_item(
         mode='PlayURL',
         title=cFL_('War Room with Owen Shroyer - (Loops After Airing)', 'purple'),
-        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/warroom.m3u8',
+        url='https://raw.githubusercontent.com/powersurge/plugin.video.banned.video/main/m3u/warroom.m3u8',
         icon=WarRoomIcon, thumbnail=WarRoomIcon, fanart=WarRoomFanart,
         folder=False
     )
@@ -202,7 +202,7 @@ def Menu_MainMenu():  # The Main Menu
     add_item(
         mode='PlayURL',
         title=cFL_('Live Shows & Special Events', 'green'),
-        url='https://raw.githubusercontent.com/ilikenwf/plugin.video.banned.video/main/m3u/liveshows.m3u8',
+        url='https://raw.githubusercontent.com/powersurge/plugin.video.banned.video/main/m3u/liveshows.m3u8',
         icon=IWLiveSEIcon, thumbnail=IWLiveSEIcon, fanart=IWLiveSEFanart,
         folder=False
     )
